@@ -10,6 +10,8 @@ const HEADER = { headers: new Headers({ 'Content-Type': 'application/json' }) };
 
 @Injectable()
 export class ItemsService {
+  itemMessage = 'WAZUUUUUUUUP';
+
   constructor(private http: Http) {}
 
   loadItems() {
